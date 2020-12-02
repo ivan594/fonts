@@ -1,0 +1,39 @@
+.content {
+    grid-area: content;
+    display: flex;
+}
+
+.content {
+    height: 700px;
+    background-image: url(../img/banner.svg);
+    margin-bottom: 10px;
+}
+
+.content__text {
+    color: #FFFFFF;
+    width: 500px;
+    height: 276px;
+    margin-top: 200px;
+    margin-left: 120px;
+}
+
+.content__mainText {
+    font-size: 60px;
+    line-height: 25px;
+    font-family: 'OSBold';
+}
+
+.content_otherText {
+    font-size: 21px;
+    line-height: 25px;
+    font-family: 'OSLight';
+}
+
+.content__button {
+    width: 208px;
+    height: 64px;
+    background-color: #005BFF;
+    border-radius: 5px;
+    font-size: 20px;
+    color:  #FFFFFF;
+}
